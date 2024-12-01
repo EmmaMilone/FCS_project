@@ -36,4 +36,4 @@ r2 = r2_score(y_test, y_pred)
 print(f"RMSE: {rmse}")
 print(f"R^2 Score: {r2}")
 joblib.dump(model, 'insurance_model.pkl')
-print("Model saved successfully!
+print("Model saved successfully!")
